@@ -1,0 +1,18 @@
+{
+    "name": "FlashThemes Add-On Manager",
+    "version": "1.0.0",
+    "description": "Manage and browse through FlashThemes plugins and themes with this handy tool!",
+    "manifest_version": 3,
+    "author": "samantha🌙#4662",
+    "action":{
+        "default_popup": "index.html",
+        "default_title": "FlashThemes Add-On Manager"
+    },
+    "permissions": [
+        "storage"
+    ],
+    "host_permissions": [
+        "http://flashthemes.net/*",
+        "https://flashthemes.net/*"
+    ]
+}
